@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+body{
+   font-weight: 400;
+   line-height: 20px;
+   color: #FC9766;
+   padding:2%;
+   margin: 3%;
+}
+/* --------------------------------------------
+--					UTILITIES                --
+---------------------------------------------*/
+* {
+      font-family: 'Lato', sans-serif; }
+.mgb{
+	margin-bottom: 2%;
+}
+.mgt{
+	margin-top: 2%;
+}
+.mgt5{
+	margin-top: 5%;
+}
+/* -------------------------------------------
+--------------------------------------------*/
+
+#opener{
+	float: left;
+}
+#dialog{
+	color:#F2E1AC;
+	padding: 3%;
+	border: 2px inset #F2594B;
+	background-color: #63A69F;
+	font-size: 18px;
+}
+#dialog i{
+	color:#F2594B;
+	font-size: 22px;
+}
+
+.img1{
+	padding: 2%;
+	margin-left: 29%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+}
+#cajaPrincipal{
+	background: #F8DDCA;
+}
+#cajaGrande{
+	background-color: #F2986B;
+	margin:4%;
+	border-radius: 10px;
+}
+#caja1{
+	background-color: #F2836B;
+	margin-left: 23%;
+	border-radius: 10px;
+}
+#caja2 {
+    background: white;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+.form-group{
+	margin-top: 2%;
+}
+#imagen{
+	margin:2%;
+	border-radius: 20px;
+	padding:2%;
+
+}

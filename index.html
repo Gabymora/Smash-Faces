@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Smash Faces</title>
+	    <link rel="stylesheet" href="css/main.css">
+	    <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+	    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link href="js/jqueryUI/jquery-ui.structure.min.css" rel="stylesheet"> 
+		<link href="js/jqueryUI/jquery-ui.theme.min.css" rel="stylesheet">
+		<link href="js/jqueryUI/jquery-ui.min.css" rel="stylesheet"> 
+		<link href="js/jqueryUI/jquery-ui.css" rel="stylesheet"> 
+		<link rel="stylesheet" href="css/bootstrap/fonts/font-awesome.min.css">
+	
+	</head>
+	<body>
+		<div class="container" id="cajaPrincipal">
+			<header>
+				<img class="img-responsive img1" src="title.png">
+				<div id="dialog" title="Instrucciones">
+					<p><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Bienvenidas al juego Smash Faces <br><i class="fa fa-hand-o-right" aria-hidden="true"></i> El juego consiste en escribir el nombre que corresponda a la imagen, si es correcto te dara 5 puntos, si te equivocas, se restara 1 punto. <br><i class="fa fa-hand-o-right" aria-hidden="true"></i> Solo tendras 5 intentos antes de que la imagen cambie, si no se restara 1 punto.</p>
+				</div>
+	 			<button id="opener" class="btn btn-info">Instrucciones</button> 			
+			</header>
+			<section>
+				<div id="contJuego">
+					<div class="row">
+						<div class="col-md-4 col-xs-4" id="caja1">
+							<div class="form-group">
+								<label for="sede">Elige tu sede</label>
+								<select class="form-control" id="sede">
+									<option value="0">Elige un pais</option>
+									<option value="1">México</option>
+									<option value="2">Perú</option>
+								</select>
+							</div>
+						</div>
+						
+					</div> <! -- /row-->
+					<div class="row mgt" id="cajaGrande">
+						<div class="col-md-5 col-xs-5">
+							<img id="imagen" src="" class="img-responsive" alt="">
+						</div>
+						<div class="col-md-7 col-xs-7">
+							<div class="form-group">
+								<label>Ingresa el nombre: </label>
+								<input  type="text" id="nombre" class="form-control">
+								<button  id="boton" class="mgt5 btn btn-default">Comprobar</button>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-4" id="caja2">
+							<h5>Puntos:  <span>	 </span>  puntos</h5>
+						</div>
+					</div> <! --/row-->
+			
+				</div> <! --/contJuego-->
+			</section>
+		</div> <! --/cajaPrincipal-->
+
+		<script src="js/jquery.js"></script>
+		<script src="js/jqueryUI/jquery-ui.min.js"></script>
+		<script src="css/bootstrap/js/bootstrap.js"></script>
+		<script src="js/mexico.js"></script>
+		<script src="js/main.js"></script>
+		
+	</body>
+</html>
